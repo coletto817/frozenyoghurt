@@ -4,14 +4,88 @@ body {
   box-sizing: border-box;
   width: auto;
 }
-
+/* --------------------------------HEADER NAV BAR---------------------------- */
 #header {
-  background-color: rgb(217, 223, 223);
-  display: block;
+  background-color: rgb(237, 243, 243);
+  margin: 0;
+  padding: 0;
+  position: relative;
   width: 100%;
 }
 
-.logo {
-  background-color: aqua;
-  width: 30%;
+#header div {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 40px 10px 30px;
+  overflow: hidden;
+}
+
+#header div a.logo {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+#header div ul {
+  display: inline-block;
+  float: right;
+  list-style: none outside none;
+  margin: 0 auto;
+  padding: 15px 0 0;
+  text-align: center;
+  width: 550px;
+}
+
+#header div ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0 35px;
+  position: relative;
+  width: auto;
+}
+
+#header div ul li a {
+  color: rgb(117, 114, 111);
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+/* -------------------------------BODY----------------------------------- */
+
+#body.main {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  overflow: visible;
+}
+
+#body.main div.header img {
+  display: block;
+  left: 50%;
+  margin: 0 auto 0 -563px;
+  padding: 0;
+  position: absolute;
+  width: 1126px;
+}
+
+#body.main div.header div a {
+  background: url(../images/icons.png) no-repeat 0 -128px;
+  color: azure;
+  position: absolute;
+  display: block;
+  height: 99px;
+  line-height: 24px;
+  margin: 0;
+  padding: 52px 0 0;
+  right: 130px;
+  text-transform: uppercase;
+  text-align: center;
+  top: 437px;
+  width: 156px;
+  z-index: 10;
 }
