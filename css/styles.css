@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+}
+
+#header {
+  background-color: rgb(217, 223, 223);
+  display: block;
+  width: 100%;
+}
+
+.logo {
+  background-color: aqua;
+  width: 30%;
+}
